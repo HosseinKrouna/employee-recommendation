@@ -57,7 +57,31 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
-		</dependency>
+		</dependency>			<!-- JavaFX (Core-Bibliotheken) -->
+			<dependency>
+				<groupId>org.openjfx</groupId>
+				<artifactId>javafx-controls</artifactId>
+				<version>21</version>
+			</dependency>
+			<dependency>
+				<groupId>org.openjfx</groupId>
+				<artifactId>javafx-fxml</artifactId>
+				<version>21</version>
+			</dependency>
+
+			<!-- JSON-Verarbeitung für API-Kommunikation -->
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-databind</artifactId>
+				<version>2.18.2</version>
+			</dependency>
+
+			<!-- HTTP-Client für API-Anfragen -->
+			<dependency>
+				<groupId>org.apache.httpcomponents.client5</groupId>
+				<artifactId>httpclient5</artifactId>
+				<version>5.3</version>
+			</dependency>
 	</dependencies>
 
 	<build>
